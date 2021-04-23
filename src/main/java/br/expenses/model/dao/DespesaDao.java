@@ -1,8 +1,8 @@
-package br.pucminas.model.dao;
+package br.expenses.model.dao;
 
 import java.util.List;
 
-import br.pucminas.model.entity.Despesa;
+import br.expenses.model.entity.Despesa;
 
 public interface DespesaDao {
     

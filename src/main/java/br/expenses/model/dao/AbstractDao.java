@@ -1,4 +1,4 @@
-package br.pucminas.model.dao;
+package br.expenses.model.dao;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;

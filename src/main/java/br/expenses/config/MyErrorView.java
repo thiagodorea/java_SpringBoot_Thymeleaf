@@ -1,4 +1,4 @@
-package br.pucminas.config;
+package br.expenses.config;
 
 import java.util.Map;
 

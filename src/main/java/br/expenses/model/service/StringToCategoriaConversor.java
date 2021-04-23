@@ -1,10 +1,10 @@
-package br.pucminas.model.service;
+package br.expenses.model.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import br.pucminas.model.entity.Categoria;
+import br.expenses.model.entity.Categoria;
 
 @Component
 public class StringToCategoriaConversor implements Converter<String, Categoria> {

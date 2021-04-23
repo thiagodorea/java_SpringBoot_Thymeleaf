@@ -1,8 +1,8 @@
-package br.pucminas.model.service;
+package br.expenses.model.service;
 
 import java.util.List;
 
-import br.pucminas.model.entity.Categoria;
+import br.expenses.model.entity.Categoria;
 
 public interface CategoriaService {
     

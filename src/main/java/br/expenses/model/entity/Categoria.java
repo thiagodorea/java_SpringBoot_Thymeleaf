@@ -1,4 +1,4 @@
-package br.pucminas.model.entity;
+package br.expenses.model.entity;
 
 import java.util.List;
 

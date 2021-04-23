@@ -1,4 +1,4 @@
-package br.pucminas.model.service;
+package br.expenses.model.service;
 
 import java.util.List;
 
@@ -6,25 +6,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.pucminas.model.dao.CategoriaDao;
-import br.pucminas.model.entity.Categoria;
+import br.expenses.model.dao.DespesaDao;
+import br.expenses.model.entity.Despesa;
 
 @Service
 @Transactional(readOnly = false)
-public class CategoriaServiceImpl implements CategoriaService {
-
+public class DespesaServiceImpl implements DespesaService {
 
     @Autowired
-    private  CategoriaDao dao;
+    private  DespesaDao dao;
+
 
     @Override
-    public void salvar(Categoria categoria) {
-        dao.save(categoria);
+    public void salvar(Despesa despesa) {
+        dao.save(despesa); 
     }
 
     @Override
-    public void editar(Categoria categoria) {
-        dao.update(categoria);
+    public void editar(Despesa despesa) {
+        dao.update(despesa);
     }
 
     @Override
@@ -33,12 +33,12 @@ public class CategoriaServiceImpl implements CategoriaService {
     }
 
     @Override
-    public Categoria buscarPorId(Long id) {
+    public Despesa buscarPorId(Long id) {
         return dao.findById(id);
     }
 
     @Override
-    public List<Categoria> buscarTodos() {
+    public List<Despesa> buscarTodos() {
         return dao.findAll();
     }
     

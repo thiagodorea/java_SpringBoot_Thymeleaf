@@ -1,4 +1,4 @@
-package br.pucminas.controller;
+package br.expenses.controller;
 
 import java.util.List;
 
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.pucminas.model.entity.Categoria;
-import br.pucminas.model.entity.Despesa;
-import br.pucminas.model.service.CategoriaService;
-import br.pucminas.model.service.DespesaService;
+import br.expenses.model.entity.Categoria;
+import br.expenses.model.entity.Despesa;
+import br.expenses.model.service.CategoriaService;
+import br.expenses.model.service.DespesaService;
 
 @Controller
 @RequestMapping("/despesas")

@@ -1,4 +1,4 @@
-package br.pucminas;
+package br.expenses;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

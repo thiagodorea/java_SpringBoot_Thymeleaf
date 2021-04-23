@@ -1,4 +1,4 @@
-package br.pucminas.controller;
+package br.expenses.controller;
 
 import javax.validation.Valid;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.pucminas.model.entity.Categoria;
-import br.pucminas.model.service.CategoriaService;
+import br.expenses.model.entity.Categoria;
+import br.expenses.model.service.CategoriaService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 

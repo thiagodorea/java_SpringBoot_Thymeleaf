@@ -11,7 +11,7 @@
 		<!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>br.pucminas</groupId>
+	<groupId>br.expenses</groupId>
 	<artifactId>java-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>java-spring</name>
