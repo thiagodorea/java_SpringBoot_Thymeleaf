@@ -34,6 +34,12 @@ public class DespesaController {
         model.addAttribute("despesas", service.buscarTodos());
         return "despesa/lista";
     }
+    
+    @GetMapping("/categoria/{id}")
+    public String categoria(@PathVariable("id") Long id, ModelMap model){
+        model.addAttribute("despesas", service.buscarPorCategoria(id));
+        return "despesa/lista";
+    }
 
     @GetMapping("/cadastrar")
     public String cadastrar(Despesa despesa){

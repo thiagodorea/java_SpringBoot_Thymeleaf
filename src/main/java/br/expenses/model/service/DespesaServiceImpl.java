@@ -41,5 +41,10 @@ public class DespesaServiceImpl implements DespesaService {
     public List<Despesa> buscarTodos() {
         return dao.findAll();
     }
+
+    @Override
+    public List<Despesa> buscarPorCategoria(Long id) {
+        return dao.findByCategoriaId(id);
+    }
     
 }

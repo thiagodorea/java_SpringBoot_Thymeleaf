@@ -15,5 +15,7 @@ public interface DespesaService {
     Despesa buscarPorId(Long id);
 
     List<Despesa> buscarTodos();
+    
+    List<Despesa> buscarPorCategoria(Long id);
 
 }
