@@ -4,7 +4,7 @@
 
 ## :star:Características
 
-* Projeto em com CRUD básico para inserir os gastos diários. 
+* Projeto com CRUD básico para inserir os gastos diários. 
 
   
 
